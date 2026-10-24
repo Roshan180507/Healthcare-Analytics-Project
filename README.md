@@ -15,10 +15,50 @@ This project focuses on analyzing healthcare data using SQL and Power BI. The ob
 
 ## 🛠️ Tools & Technologies
 
-* **SQL:** Data querying, validation, and analysis.
-* **Power BI:** Interactive dashboard development and reporting.
-* **Power Query:** Data cleaning and transformation.
-* **DAX:** Measures and KPI calculations.
+## 🗄️ SQL Analysis
+
+SQL was used to prepare, validate, and analyze the healthcare dataset.
+
+### 1. Data Cleaning
+
+* Checked for missing and blank values.
+* Reviewed data consistency.
+* Prepared the dataset for analysis.
+
+### 2. Data Validation
+
+* Checked for duplicate patient identifiers.
+* Validated important fields used in analysis.
+* Reviewed missing values in key columns.
+
+### 3. SQL Techniques Used
+
+* **SELECT** — Retrieve relevant data from tables.
+* **WHERE** — Filter records based on conditions.
+* **GROUP BY** — Summarize records by categories.
+* **JOIN** — Combine related data across tables.
+* **Aggregate Functions** — Calculate summaries using functions such as `COUNT()`, `SUM()`, and `AVG()`.
+
+### 4. Business Analysis
+
+The SQL analysis supports healthcare reporting across patient demographics, doctors, facilities, insurance, payments, and financial performance.
+
+## 📊 Power BI Dashboard
+
+Power BI was used to build an interactive dashboard with key performance indicators and analysis pages.
+
+* Executive Overview
+* Patient Analysis
+* Doctor & Facility Analysis
+* Insurance & Payment Analysis
+
+### Key Performance Indicator
+
+**Overall Collection Rate**
+
+Collection Rate = (Paid Amount ÷ Total Amount) × 100
+
+This KPI shows the percentage of the total amount that has been paid.
 
 ## 📊 Key Analysis Areas
 
